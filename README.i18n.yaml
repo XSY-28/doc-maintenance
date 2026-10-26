@@ -1,0 +1,20 @@
+format: doc-maintenance-pair
+version: 1
+source: "README.en.md"
+target: "README.md"
+sections:
+  "/":
+    source: "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    target: "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+  "/heading/doc-maintenance":
+    source: "sha256:db90af01468bb53e7ca745fbf9f884028af850afc413967184d17d000180c51a"
+    target: "sha256:dacee0927a60ddfa46495d89a404e6f9eb4ca72a1b35b1a5c628d7d5a7604f67"
+
+  "/heading/doc-maintenance/usage":
+    source: "sha256:f627f88d91a789c1b4cb0d26022b6f38d943f84eb38603e113bc4d6e009b3bd9"
+    target: "sha256:13bb1608690fe9e55f7b04e51cc7b73ab4427c7365c5c0f0abc4afc7e9401774"
+
+  "/heading/doc-maintenance/verification":
+    source: "sha256:c093ac714c03e13958c536ccfc6a2ca04185200e97c603bd43d2b3021b871b5c"
+    target: "sha256:779bd58d40cad6d395ee678713497e9cc915ef24142eb184e0ff0a2fe82915d0"

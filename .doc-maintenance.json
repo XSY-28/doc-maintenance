@@ -1,6 +1,7 @@
 {
-  "documents": ["README.md", "SKILL.md", "NOTICE.md", "references/**/*.md", "examples/**/*.md"],
+  "documents": ["README.md", "README.en.md", "SKILL.md", "NOTICE.md", "references/**/*.md", "examples/**/*.md"],
   "budgets": [{"path": "SKILL.md", "unit": "characters", "limit": 3200}],
+  "pairs": [{"source": "README.en.md", "target": "README.md", "record": "README.i18n.yaml"}],
   "commands": {
     "example": {"argv": ["node", "scripts/doc-maintenance.mjs", "check", "--root", "examples/minimal"], "description": "检查随包双语示例"},
     "test": {"argv": ["npm", "test"], "description": "运行工具行为测试", "timeoutMs": 120000}

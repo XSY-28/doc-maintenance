@@ -1,5 +1,7 @@
 # doc-maintenance
 
+[English](README.en.md) | 中文
+
 最近在读 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness) 的仓库。我对他们怎么让中英文文档保持一致很感兴趣，就看了看相关文档和提交记录，整理了一些值得借鉴的做法：
 
 - 每类文档各有职责。同一个事实有主要归属，其他地方链接过去，减少重复解释。
