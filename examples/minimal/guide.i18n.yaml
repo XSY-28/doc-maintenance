@@ -1,0 +1,24 @@
+format: doc-maintenance-pair
+version: 1
+source: "guide.md"
+target: "guide.zh.md"
+sections:
+  "/":
+    source: "sha256:f7ec3876e9da3364cd8f19611758a027a8e89491da7fe83036ac473437f5469f"
+    target: "sha256:4b128e7611953d898ea627d7d462ba6ff5e283a52881a3f7402f5d9443a168b9"
+
+  "/heading/sample-guide":
+    source: "sha256:456f5e169afcd8ea967f359ce02f1e41ac5fc696a584acafea1c2e1850718a82"
+    target: "sha256:9e21e66ca54170b5ff6cfb8b9c8854727991761f7520c437c0927f3160b17f42"
+
+  "/heading/sample-guide/purpose":
+    source: "sha256:9de89c9231b0542d6d2c5907e473dba3f73719ee5b467486330442fbb7e38a5b"
+    target: "sha256:f94325f8f2fe0b8d90ef7e80a3c1a5da9abf1b9409e2ebb84d268bda12dc7f14"
+
+  "/heading/sample-guide/check-the-reference":
+    source: "sha256:059caa34cf5558c31c4b9d5b277721ffa5183a4e2b08f7a1fe0b94f23c6cc366"
+    target: "sha256:22f94861b45f57106ec74fb6cfea653c1d2e68ede80d598d71cb51e3e5092c94"
+
+  "/heading/sample-guide/update-a-setting":
+    source: "sha256:b8180bb9414ee7e159b84c1eae11008cc839ddadd5588dcda8a4415ff7a9751d"
+    target: "sha256:5e7c0a653650c0572d2da2ed12e91ecb157d9b7bec8509c19736f26285b4c075"

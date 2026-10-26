@@ -1,0 +1,9 @@
+{
+  "documents": ["*.md"],
+  "budgets": [{"path": "guide.zh.md", "unit": "characters", "limit": 1400}],
+  "pairs": [{"source": "guide.md", "target": "guide.zh.md", "record": "guide.i18n.yaml"}],
+  "commands": {
+    "generated": {"argv": ["node", "project-check.mjs", "check"], "description": "确认参考表与 settings.json 一致"},
+    "syntax": {"argv": ["node", "--check", "project-check.mjs"], "description": "示例项目脚本语法检查"}
+  }
+}

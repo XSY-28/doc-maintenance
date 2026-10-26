@@ -1,0 +1,4 @@
+{
+  "retryLimit": {"default": 3, "description": "Maximum retry attempts"},
+  "timeoutMs": {"default": 5000, "description": "Timeout in milliseconds"}
+}

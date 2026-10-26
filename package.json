@@ -1,0 +1,15 @@
+{
+  "name": "agent-doc-maintenance",
+  "version": "0.1.0",
+  "description": "Evidence-led documentation maintenance skill and local checks for coding agents",
+  "type": "module",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/XSY-28/doc-maintenance.git" },
+  "homepage": "https://github.com/XSY-28/doc-maintenance#readme",
+  "bugs": { "url": "https://github.com/XSY-28/doc-maintenance/issues" },
+  "engines": { "node": ">=22" },
+  "bin": { "doc-maintenance": "scripts/doc-maintenance.mjs" },
+  "scripts": { "test": "node --test tests/*.test.mjs", "check": "node scripts/doc-maintenance.mjs check --root .", "pack:check": "npm pack --dry-run" },
+  "files": ["SKILL.md", "references/", "scripts/", "examples/", "README.md", "LICENSE", "NOTICE.md", "npm-shrinkwrap.json"],
+  "dependencies": { "markdown-it": "^14.1.0", "github-slugger": "^2.0.0", "yaml": "^2.8.0", "picomatch": "^4.0.0" }
+}
