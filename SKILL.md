@@ -4,13 +4,21 @@ description: >-
   Maintain repository documentation alongside code changes: assign document responsibilities,
   preserve facts and author voice, control growth, review reader tasks, synchronize bilingual
   sections, and run local consistency checks. Use for documentation audits, README or guide
-  revisions, code-to-doc synchronization, and bilingual maintenance. Ordinary coding, prose
-  translation outside a repository, and unrelated note organization do not activate this workflow.
+  revisions, and bilingual maintenance. Also use during coding whenever changes affect documented
+  usage, commands, configuration, defaults, public interfaces, behavior, or limitations, even
+  without a separate documentation request. Internal-only changes with no documentation impact,
+  prose translation outside a repository, and unrelated note organization do not activate it.
 ---
 
 # Doc Maintenance
 
 帮助 coding agent 在现有仓库中维护准确、可用、表达稳定的文档。按用户请求处理指定文件或当前变更；全库整理需要相应任务范围。沿用项目的语言、目录、术语、验证命令和授权，不因使用本 Skill 就创建新文档体系或改 Git 配置。
+
+## 开发时自动维护
+
+在编码任务中判断本次改动是否影响读者使用项目。涉及用法、命令、配置、默认值、对外接口、行为或限制时，将相关文档同步视为本次开发的一部分，无需用户另行调用。先定位已有说明及其主要归属，再局部修改；已有双语配对同步处理，并在交付前运行与改动相称的检查。
+
+纯内部调整且文档仍准确时，保留现有文字。新项目先建立足够使用的入口说明，避免套完整文档模板；首次发现双语或预算需求时再按项目实际配置。用户明确限定只读、只审查或只改某个范围时遵守该范围，报告需要另行处理的文档。
 
 ## 从当前任务开始
 
@@ -21,9 +29,9 @@ description: >-
 
 ## 按需读取
 
-- 分工、重复内容、篇幅增长、教程与参考、决策历史：[organization.md](references/organization.md)。
-- 写作、术语、人工样例、精简时保护事实：[editing.md](references/editing.md)。
-- 双语失步、确认记录、局部更新、普通 Git 合并：[bilingual.md](references/bilingual.md)。
+- 分工、入口摘要、篇幅棘轮、教程与参考、决策清理：[organization.md](references/organization.md)。
+- 写作、术语、人工样例、保护事实、清理会话泄漏：[editing.md](references/editing.md)。
+- 双语失步、单遍同步、确认记录、排版与普通 Git 合并：[bilingual.md](references/bilingual.md)。
 - 配置、命令、Git 暂存区与 CI 接入：[checks.md](references/checks.md)。
 - 生成参考、示例/类型验证、网站发布及真实任务验收：[verification.md](references/verification.md)。
 
